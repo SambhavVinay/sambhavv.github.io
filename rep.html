@@ -3,89 +3,93 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>THREE MONTHS TOGETHER!</title>
+    <title>INSTAGRAM</title>
     <style>
-        body {
-            font-family: Arial, sans-serif;
-            display: flex; 
+        body{
+            display: flex;
             flex-direction: column;
-            align-items: center;
-            padding: 20px;
-            background-color: #ffe4e1; 
-            color: #333;
+            align-items:center;
+            padding: 10px;
+            background-color: beige;
+
         }
-        h1 {
-            color: #ff1493; 
-            margin-bottom: 10px;
+        img{
+            width: 300px;
+            border-radius:20px;
+
         }
-        h2 {
-            color: #db7093; 
-        }
-        img {
-            width: 400px;
-            border-radius: 15px;
-            margin: 20px 0;
-            box-shadow: 0 4px 12px;
-        }
-        p {
-            text-align: center;
-            max-width: 600px;
+        
+        h2{
+            align-self: center;
             margin-bottom: 20px;
+            background-color: beige;
+            letter-spacing: 15px;
+            border-radius: 10px;
+            padding: 6px;
+            box-shadow: 0 2px 12px;
+            
         }
-        .button {
-            background-color: #ff69b4; 
+        .sub{
+            background-color: rgb(231, 218, 185);
+            border-radius:10px;
+            display:inline-block;
+            margin: 20px;
+            padding: 20px;
+            box-shadow: 0 4px 12px;
+            
+            
+        }
+        h1{
+            background-color: rgb(225, 195, 155) ;
+            padding-right: 910px;
+            padding-left: 910px;
+            letter-spacing: 20px;
+        }
+        H3{
+            background-color: rgb(0, 0, 0);
+            padding-right: 910px;
+            padding-left: 910px;
+            color: aliceblue;
+            letter-spacing: 20px;
+        }
+        
+        .sub:hover{
+            transform: scale(1.05);
+        }
+        button:hover{
+            color: brown;
+        }
+        button {
+            background: linear-gradient(135deg, #3f729b, #1e4f68);
+            padding:15px;
+            padding-left: 100px;
+            padding-right: 100px;
+            padding-top: 10px;
+            padding-bottom: 10px;
+            border-radius: 10px;
+            border:none;
             color: white;
-            border: none;
-            border-radius: 5px;
-            padding: 10px 20px;
-            text-decoration: none;
             font-weight: bold;
-            transition: background-color 0.3s;
-            cursor: pointer; 
+            transition: all 0.3s ease;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            
+            
         }
-        .button:hover {
-            background-color: #ff1493;
-        }
-        #description {
-            display: none; 
-            margin-top: 20px;
-            font-weight: bold;
-            color: #ff1493; 
-            text-align: center; 
-        }
+        
+
     </style>
 </head>
 <body>
-    <h1>HAPPY THREE MONTHS LOVE!</h1>
-    <img src="first.jpg" alt="A sweet photo of us">
+    <center><h1>INSTAGRAM</h1></center>
+    <center><H3>ACCOUNTS</H3></center>
+    <div class="main">
+        <div class="sub">
+            <center><h2>GOOFY</h2></center>
+            <center><img src="goofy.jpg.png" alt="_blank"></center>
+            <CENTER><button><a href="https://www.instagram.com/mr_huskiee/" style="color: rgb(255, 255, 255);;">GOOOOOOOOFY</a></button></CENTER>
+
+        </div>
+    </div>
     
-    <h2>Celebrating Us!</h2>
-    <p>Dear BooBoo,</p>
-    <p>These past three months with you have been the happiest of my life. I cherish every moment we spend together, and I look forward to creating many more beautiful memories.</p>
-    <p>Thank you for being you! I love you so much!</p>
-    
-    <button class="button" onclick="playAndShowDescription()">Here's to Many More BRAINROTTTTT</button>
-
-    <div id="description">ResERvE FuEl Pe ChAL RaHE HaI BhOsADikE</div>
-
-    <script>
-        function playAndShowDescription() {
-            const videoUrl = 'porsche.mp4'; 
-            const newTab = window.open(videoUrl, '_blank');
-
-            if (newTab) {
-                newTab.focus(); 
-            } else {
-                alert('Please allow pop-ups for this website to view the video.');
-            }
-
-            window.location.href = 'https://www.your-special-link.com'; 
-
-            setTimeout(() => {
-                const description = document.getElementById('description');
-                description.style.display = 'block'; 
-            }, 500); 
-        }
-    </script>
 </body>
 </html>
